@@ -9,11 +9,15 @@ import static oppgave1.ConsoleApp.API_KEY;
 @RestController
 public class CurrencyExchangeController {
 
-    @GetMapping("/ce/v1/{from}/{to}/{ammount}/{ceDate}")
-    public String getCurrencyExchange(@PathVariable String from,
-                                      @PathVariable String to,
-                                      @PathVariable int ammount,
-                                      @PathVariable String ceDate) {
+    @GetMapping("/ce/v1")
+    public String getCurrencyExchange(@RequestParam String from,
+                                      @RequestParam String to,
+                                      @RequestParam int ammount,
+                                      @RequestParam(required = false) String ceDate) {
+
+        if (ceDate == null) {
+            ceDate = "latest";
+        }
 
         String requestUrl = "http://data.fixer.io/api/" +
                 ceDate +

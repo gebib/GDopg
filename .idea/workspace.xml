@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3f0df1-6871-44a9-803c-ea983f02e36a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/oppg2/src/main/java/com/example/oppg2/controller/CurrencyExchangeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oppg2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oppg2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oppg2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/oppg2/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oppgave1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oppgave1/ConsoleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oppg2/src/main/java/com/example/oppg2/controller/CurrencyExchangeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oppg2/src/main/java/com/example/oppg2/controller/CurrencyExchangeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +123,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
