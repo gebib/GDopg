@@ -5,9 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3f0df1-6871-44a9-803c-ea983f02e36a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/src/app/components/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/src/app/service/DataService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/src/app/styles/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/src/app/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/ce_api_consumer/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg3/oppg3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oppg2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oppg2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oppg2/src/main/java/com/example/oppg2/controller/CurrencyExchangeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oppg2/src/main/java/com/example/oppg2/controller/CurrencyExchangeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oppgave1/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oppgave1/ConsoleApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +82,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\LocalRepo\GDoppgave\oppg3\ce_api_consumer\src\app\components" />
+      <recent name="C:\LocalRepo\GDoppgave\oppg3\ce_api_consumer\src\app\styles" />
+      <recent name="C:\LocalRepo\GDoppgave\oppg3\ce_api_consumer\src\app" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.Oppg2Application">
     <configuration name="ConsoleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oppgave1.ConsoleApp" />
@@ -82,8 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/oppg3/ce_api_consumer/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="Application.ConsoleApp" />
       </list>
     </recent_temporary>
@@ -118,7 +157,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1643662881578</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Oppg2 spring boot API added swagger">
+      <created>1643747718953</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1643747718953</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +185,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Oppg1_ok" />
     <MESSAGE value="Oppg2 spring boot API initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oppg2 spring boot API initial commit" />
+    <MESSAGE value="Oppg2 spring boot API added swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oppg2 spring boot API added swagger" />
   </component>
 </project>

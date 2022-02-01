@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import static oppgave1.ConsoleApp.API_KEY;
 
 @RestController
+@CrossOrigin(origins = {"*"})
 public class CurrencyExchangeController {
 
     @GetMapping("/ce/v1")
