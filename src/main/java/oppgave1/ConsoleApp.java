@@ -8,9 +8,10 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.*;
 
-public class Main {
 
-    private final static String API_KEY = "privateAPIkey!";
+public class ConsoleApp {
+
+    public final static String API_KEY = "privateAPIkey";
     private static String fromCurrency = "";
     private static String toCurrency = "";
     private static int ammount = 0;
@@ -51,7 +52,7 @@ public class Main {
     }
 
 
-    private static JSONObject doRequest(String apiUrl) {
+    public static JSONObject doRequest(String apiUrl) {
         StringBuffer sb = new StringBuffer();
         try {
             URL url = new URL(apiUrl);

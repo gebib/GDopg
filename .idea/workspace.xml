@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3f0df1-6871-44a9-803c-ea983f02e36a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/oppg2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oppg2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oppg2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oppg2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oppg2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oppg2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oppg2/src/main/java/com/example/oppg2/Oppg2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oppg2/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oppg2/src/test/java/com/example/oppg2/Oppg2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oppg2/src/main/java/com/example/oppg2/controller/CurrencyExchangeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oppg2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oppg2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oppg2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/oppg2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oppgave1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oppgave1/ConsoleApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +49,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -65,8 +64,8 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="Spring Boot.Oppg2Application">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oppgave1.Main" />
+    <configuration name="ConsoleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oppgave1.ConsoleApp" />
       <module name="GDoppgave" />
       <extension name="coverage">
         <pattern>
@@ -87,7 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ConsoleApp" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +100,7 @@
       <updated>1643616064884</updated>
       <workItem from="1643616066252" duration="6250000" />
       <workItem from="1643637592776" duration="18084000" />
-      <workItem from="1643660481518" duration="1367000" />
+      <workItem from="1643660481518" duration="20236000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1643616323324</created>
@@ -115,7 +114,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1643660981218</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Oppg2 spring boot API initial commit">
+      <created>1643662881578</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1643662881578</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +130,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Oppg1_ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oppg1_ok" />
+    <MESSAGE value="Oppg2 spring boot API initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oppg2 spring boot API initial commit" />
   </component>
 </project>
